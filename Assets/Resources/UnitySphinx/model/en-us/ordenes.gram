@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Digits Grammar file
+ */
+
+grammar digits;
+
+public <basicCmd> = <numbers>;
+
+<numbers> = (up | down | left | right);
+
